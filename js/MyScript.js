@@ -7,8 +7,8 @@ console.log('hello')
 
 //user data
 //1 get users name
-var userName = prompt('whats your name?');
-console.log(userName);
+var userFirstName = prompt('whats your first name?');
+console.log(userFirstName);
 
 //2 get users surname
 var userSurName = prompt('whats your surname?');
@@ -20,7 +20,7 @@ console.log(userFavColor);
 
 //4 gives user his password
 document.getElementById('mypassword').innerHTML = 'Your password is:'
-document.getElementById('box-password').innerHTML = userName + userSurName + userFavColor + 21;
+document.getElementById('box-password').innerHTML = userFirstName + userSurName + userFavColor + 21;
 
 //password alert
 document.getElementById('attention').innerHTML = 'Alert! This password is not safe!!!'
